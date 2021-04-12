@@ -9,6 +9,7 @@ if (isset($_POST['submit'])) {
     $mailTo = "danmarian915@yahoo.com";
     $header = "From: ".$mailFrom;
     $txt = "You have recieved a mail from ".$name.".\n\n".$message;
+    $subject = "Personal Portfolio Mail";
 
     mail($mailTo, $subject, $txt, $header);
    
