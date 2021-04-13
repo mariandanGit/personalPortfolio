@@ -64,6 +64,7 @@ body{
     height: 100vh;
     background-color:rgb(138,202,239);
     width: 100%;
+    text-align: center;
 }
 h1{
     color: white;
