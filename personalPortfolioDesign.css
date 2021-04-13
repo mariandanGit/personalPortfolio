@@ -1,9 +1,18 @@
+@font-face { font-family: Futura-Medium; src: url('Futura\ Medium.otf'); } 
+@font-face { font-family: Futura-Bold; src: url('Futura\ Bold.otf'); }
+*{
+    font-family: Futura-Medium, Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: Futura-Bold, Arial, Helvetica, sans-serif;
+}
 body{
     height: 100%;
     width: 100%;
     margin: 0;
     position: relative;
 }
+/**************** NAVIGATION AREA ***************/
 #navbar{
     position: absolute;
     display: flex;
@@ -33,12 +42,16 @@ body{
 #dropdown{
     display: none;
 }
+/**************** NAVIGATION AREA ***************/
+
+/**************** HOME AREA ***************/
 
 #mainSection{
     position: relative;
     top:70px;
     bottom:70px;
 }
+
 #home{
     display: flex;
     flex-direction: column;
@@ -52,6 +65,11 @@ h1{
     color: white;
     font-size: 50px;
 }
+/**************** HOME AREA ***************/
+
+
+/**************** ABOUT ME AREA ***************/
+
 #aboutMe{
     display: flex;
     color:white;
@@ -147,6 +165,9 @@ h1{
     0% { width: 0; }
     100% { width: 12%; }
   }
+/**************** ABOUT ME AREA ***************/
+
+/**************** PROJECTS AREA ***************/
 
 #projects{
     display: flex;
@@ -255,6 +276,10 @@ h1{
     font-size: 0.8em;
   }
   
+/**************** PROJECTS AREA ***************/
+
+/**************** CONTACT AREA ***************/
+
 #contactArea{
     display: flex;
     flex-direction: column;
@@ -299,6 +324,7 @@ h2{
     border-radius:5px;
     border-width: 0.5px;
     font-size: 20px;
+    font-family: Futura-Medium ,Arial, Helvetica, sans-serif;
 }
 #submitButton{
     width:100px;
@@ -352,6 +378,9 @@ h2{
     flex-direction: row;
     align-items: center;
 }
+/**************** CONTACT AREA ***************/
+
+/**************** FOOTER AREA ***************/
 #footer{
     position: absolute;
     height: 70px;
@@ -371,8 +400,9 @@ h2{
 #footerDiv a:hover{
     color: rgb(232,179,50);
 }
+/**************** FOOTER AREA ***************/
 
-/* *******************MEDIA QUERIES******************* */
+/**************** MEDIA QUERIES ***************/
 
 @media screen and (max-width: 1200px){
     
@@ -498,3 +528,5 @@ h2{
         height: 550px;
     }
 }
+
+/**************** MEDIA QUERIES ***************/
