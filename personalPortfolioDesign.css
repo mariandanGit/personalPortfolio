@@ -42,6 +42,10 @@ body{
 #dropdown{
     display: none;
 }
+#navigationIcons{
+    display: none;
+    text-decoration: none;
+}
 /**************** NAVIGATION AREA ***************/
 
 /**************** HOME AREA ***************/
@@ -511,6 +515,9 @@ h2{
     .progressBar{
         width:400px;
     }
+    #imageOfMe{
+        height: 270px;
+    }
 }
 @media screen and (max-width: 600px){
     
@@ -522,10 +529,48 @@ h2{
         height: 200px;
         width: 150px;
     }
+    .inputs, #textArea{
+        width:350px;
+    }
 }
-@media screen and (max-height: 550px){
+@media screen and (max-width: 550px){
     #home{
         height: 550px;
+    }
+    #dropdown{
+        display: none;
+    }
+    #navigationIcons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    #navigationIcons a{
+        color:rgb(241,129,52);
+    }
+    .progressBar{
+        width:350px;
+    }
+    #infoAboutMe{
+        width: 400px;
+    }
+    #imageOfMe{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 25px;
+    }
+    .progressBar{
+        width:300px;
+    }
+    #infoAboutMe{
+        width: 350px;
+    }
+    .inputs, #textArea{
+        width:300px;
     }
 }
 
