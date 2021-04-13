@@ -439,6 +439,15 @@ h2{
     h1{
         font-size: 40px;
     }
+    h2{
+        font-size:25px;
+    }
+    h3{
+        font-size:20px;
+    }
+    p{
+        font-size:16px;
+    }
     #imageOfMe{
         height: 300px;
     }
@@ -519,6 +528,15 @@ h2{
     #imageOfMe{
         height: 270px;
     }
+    h2{
+        font-size:23px;
+    }
+    h3{
+        font-size:18px;
+    }
+    p{
+        font-size:14px;
+    }
 }
 @media screen and (max-width: 600px){
     
@@ -572,6 +590,15 @@ h2{
     }
     .inputs, #textArea{
         width:300px;
+    }
+    h2{
+        font-size:22px;
+    }
+    h3{
+        font-size:17px;
+    }
+    p{
+        font-size:13px;
     }
 }
 
