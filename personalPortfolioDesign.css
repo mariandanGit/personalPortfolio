@@ -451,6 +451,10 @@ h2{
     #imageOfMe{
         height: 300px;
     }
+    #formImg{
+        height: 280px;
+        width: 280px;
+    }
 }
 @media screen and (max-width: 800px){
     
@@ -537,6 +541,10 @@ h2{
     p{
         font-size:14px;
     }
+    #formImg{
+        height: 250px;
+        width: 250px;
+    }
 }
 @media screen and (max-width: 600px){
     
@@ -577,6 +585,10 @@ h2{
     #imageOfMe{
         height: 200px;
     }
+    #formImg{
+        height: 220px;
+        width: 220px;
+    }
 }
 @media screen and (max-width: 500px){
     h1{
@@ -599,6 +611,10 @@ h2{
     }
     p{
         font-size:13px;
+    }
+    #formImg{
+        height: 200px;
+        width: 200px;
     }
 }
 
